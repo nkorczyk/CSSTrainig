@@ -1,7 +1,6 @@
-p, a {
-  width: 50%;
-  margin: 20px;
-  padding: 30px;
-  border: 2px solid black;
-  display: block;
+p {
+  padding: 50px;
+  background: #eee;
+  font-family: arial;
+  line-height: 1.4em;
 }
