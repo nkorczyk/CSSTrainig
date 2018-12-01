@@ -120,3 +120,24 @@ section, aside {
   text-align: center;
   color: #fff;
 }
+
+nav {
+  background: #333;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+nav ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+nav li {
+  list-style-type: none;
+  margin: 0 10px;
+  color: #fff;
+  float: right;
+}
