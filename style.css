@@ -1,5 +1,7 @@
 body {
   background: rgb(182, 174, 174);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.4em;
 }
 
 .wrapper {
@@ -101,4 +103,20 @@ section, aside {
   display: block;
   content: "";
   clear: both;
+}
+
+#banner {
+  max-height: 300px;
+  overflow: hidden;
+  margin: 1%;
+  position: relative;
+}
+
+#banner h2 {
+  position: absolute;
+  top: 30px;
+  margin: 0px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
 }
